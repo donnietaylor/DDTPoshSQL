@@ -137,7 +137,7 @@ function Invoke-SQL
 		}
 		catch
 		{
-			Write-output "Error: $statement"
+			Write-output "Error:  $statement"
 			Write-output  $_
 		}
 	}
