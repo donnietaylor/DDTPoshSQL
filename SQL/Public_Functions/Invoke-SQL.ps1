@@ -137,8 +137,8 @@ function Invoke-SQL
 		}
 		catch
 		{
-			Write-verbose "Error: $statement"
-			Write-verbose  $_
+			Write-output "Error: $statement"
+			Write-output  $_
 		}
 	}
 	end { }
